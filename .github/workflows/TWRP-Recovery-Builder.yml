@@ -20,11 +20,11 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch' 
         required: true
-        default: 'android-14'
+        default: 'android-12.1'
       DEVICE_PATH:
         description: 'Specify your Device Path' 
         required: true
-        default: 'kernel/motorola/cancunn'
+        default: 'device/motorola/cancunn'
       DEVICE_NAME:
         description: 'Specify your Device Codename' 
         required: true
